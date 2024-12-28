@@ -1,0 +1,88 @@
+/* General styles */
+.d-flex {
+    display: flex;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .shadow-sm {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .bg-white {
+    background-color: white;
+  }
+  
+  /* Search button */
+  .search-button {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #6c757d89;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    border-radius: 999px;
+    transition: all 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Create button */
+  .create-button {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #000;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 999px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* User image */
+  .user-container img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  .secondary{
+    background-color: rgba(128, 128, 128, 0.212);
+    color: rgba(128, 128, 128, 0.365);
+    font-weight: 500;
+  }
+  .stick{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  .form-control{
+    font-weight: normal;
+    font-family: revert;
+  }

@@ -1,0 +1,227 @@
+/* Sidebar container */
+.sidebar {
+   
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 3px solid #ffeb3b;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-subname {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }
+  
+  /* Menu List */
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    height: 200px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #333;
+  }
+  
+  .menu-item span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .menu-item.active {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .menu-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Settings Section */
+  .settings {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .settings i {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #333;
+  }
+  
+  .settings span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .settings:hover {
+    background-color: #f9f9f9;
+  }
+  hr{
+    border-top: 1px solid #dddddd27;
+  }
+  .channel-analytics-container {
+    padding: 20px;
+    padding-bottom: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .advanced-mode-button {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .advanced-mode-button:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab {
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+  }
+  
+  .date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .dropdown-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* hr {
+    margin-top: 10px;
+    border: 0.5px solid #ddd;
+  } */
+  .tabs-container span:hover::after {
+    transform: rotateY(0deg); /* Shows underline on hover */
+  }
+  .tabs-container span::after {
+    content: '';
+    border-top: 3px solid #000;
+    width: 100%;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transform: rotateY(90deg); /* Initially hidden */
+    transition: transform 0.25s linear;
+  }
+  .tabs-container span {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Adds space between items */
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: transform 0.25s ease;
+  }
+  .over{
+    overflow-y: auto;
+    height: 85vh;
+  }
+  .drop{
+    width: 25%;
+    font-size: medium;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .dropdown-menu{
+    position: absolute;
+    inset: -55px auto auto 10px;
+    margin: 0px;
+    transform: translate3d(108px, 46px, 0px);
+    width: 100%;
+    left: -20px !important;
+    top: -50px !important;
+  }

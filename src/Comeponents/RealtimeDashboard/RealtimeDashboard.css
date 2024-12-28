@@ -1,0 +1,157 @@
+/* RealtimeDashboard.css */
+
+.dashboard {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .status {
+    font-size: 12px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    margin-bottom: 20px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .value {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .live-count {
+    margin-top: 10px;
+ 
+    font-size: 14px;
+    color: black;
+    background-color: #8888882e;
+    border: 1px solid #8888;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 130px;
+  }
+  .seemore{
+    
+    font-size: 14px;
+    color: black;
+    background-color: #8888882e;
+    border: 1px solid #888888f1;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+
+  }
+  .live-count:hover {
+    background-color: #888;
+  }
+  
+  .views {
+    text-align: center;
+  }
+  
+  .graph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .bar {
+    width: 40%;
+    background-color: #007bff;
+  }
+  
+  .top-content {
+    margin-bottom: 20px;
+  }
+  
+  .content-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .details {
+    flex-grow: 1;
+  }
+  
+  .title {
+    
+  font-size: 14px;
+  }
+  
+  .views {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .see-more {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #888;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .see-more:hover {
+    background-color: #8888882b;
+  }
+  .child{
+    height: 30px;
+    border-radius: 10px;
+  }
+  .childs{
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+margin-left: 10px;
+margin-right: 10px;
+  }
+  .sizefontcircle{
+    font-size: 9px !important;
+   
+  }
+  .sizew{display: flex;
+    gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+  }

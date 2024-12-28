@@ -1,0 +1,79 @@
+.channel-analytics-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .advanced-mode-button {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .advanced-mode-button:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab {
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+  }
+  
+  .date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .dropdown-button:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    margin-top: 10px;
+    border: 0.5px solid #ddd;
+  }
+  
