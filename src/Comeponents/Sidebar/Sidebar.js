@@ -8,6 +8,8 @@ import RealtimeDashboard from "../RealtimeDashboard/RealtimeDashboard";
 import DashboardStats from "../ChannelStats/ChannelStats";
 
 const Sidebar = () => {
+  // let  clas = document.getElementById("navbarDropdown");
+  // clas.classList.remove("dropdown-toggle")
   const menuItems = [
     {
       label: "Dashboard",
@@ -35,7 +37,7 @@ const Sidebar = () => {
     <div className="d-flex">
       <div className="sidebar col-lg-2">
         {/* Profile Section */}
-        <div className="profile-section p-5">
+        <div className="profile-section p-5 pb-0 pt-3">
           <img src={images.user2} alt="User Logo" className="profile-image" />
           <h5 className="profile-name">Your channel</h5>
           <p className="profile-subname">Fact Bidu</p>
@@ -366,12 +368,18 @@ const Sidebar = () => {
       </div>
       <div className="col-lg-10 pb-0 over">
         <div className="channel-analytics-container ">
-          <div className="header">
-            <h2>Channel analytics</h2>
+          <div className="header mt-3">
+            {/* <span>Channel analytics</span> */}
+            <div>
+<img src={images.channce} alt="User Logo" className="daete" />
+
+</div>
+            
+
             <button className="advanced-mode-button">Advanced mode</button>
           </div>
 
-          <div className="tabs-container">
+          <div className="tabs-container pt-4">
             <div className="tabs">
               <span className="tab">Overview</span>
               <span className="tab">Content</span>
@@ -380,16 +388,25 @@ const Sidebar = () => {
             </div>
 
             <div className="nav-item dropdown d-flex drop">
-              30 Nov – 27 Dec 2024 <br />
-              Last 28 days
+             {/* <div>
+             <p className="m-0 nov">30 Nov – 27 Dec 2024</p>
+             Last 28 days</div>  */}
+
+<div>
+<img src={images.date} alt="User Logo" className="daete" />
+
+</div>
               <NavLink
-                className="nav-link dropdown-toggle"
+                className="nav-link "
                 href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              ></NavLink>
+              >
+                
+                <i class="fa-solid fa-angle-down"></i>
+              </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <NavLink className="dropdown-item" to="/action">
@@ -460,17 +477,30 @@ const Sidebar = () => {
         <div className="container px-4">
           <div className="row">
             <div className="col-lg-8">
-              <h4
-                className="text-center"
+              {/* <h4
+                className="text-center "
                 style={{ fontWeight: "bold", marginBottom: "30px" }}
               >
                 Your channel got 40 views in the last 28 days
-              </h4>
+              </h4> */}
+              <img src={images.youare} alt="User Logo" className="w-100" />
+
               <DashboardStats />
-              <ContentList />{" "}
+              {/* <ContentList />{" "} */}
+              <div>
+              <h5 className="text-center mt-5">Your top content in this period</h5>
+
+              <img src={images.listedted} alt="User Logo" className="w-100" />
+
+              </div>
             </div>
             <div className="col-lg-4">
-              <RealtimeDashboard />{" "}
+              {/* <RealtimeDashboard />{" "} */}
+              <div>
+              <img src={images.real} alt="User Logo" className="w-100" />
+
+              </div>
+
             </div>
           </div>
         </div>

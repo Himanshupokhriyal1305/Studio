@@ -48,16 +48,17 @@
   /* Create button */
   .create-button {
     background-color: #f8f8f8;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd !important;
     color: #000;
     padding: 8px 20px;
     font-size: 14px;
-    border-radius: 999px;
+    border-radius: 999px !important;
     font-weight: 500;
     display: flex;
     align-items: center;
     cursor: pointer;
     transition: all 0.3s;
+    height: 35px;
   }
   
   .create-button:hover {
@@ -66,17 +67,16 @@
   
   /* User image */
   .user-container img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #ddd;
+  
   }
-  .secondary{
-    background-color: rgba(128, 128, 128, 0.212);
-    color: rgba(128, 128, 128, 0.365);
-    font-weight: 500;
+  .user-container{
+    padding-top: 10px;
   }
+
   .stick{
     position: sticky;
     top: 0px;
@@ -84,5 +84,20 @@
   }
   .form-control{
     font-weight: normal;
-    font-family: revert;
+    font-family:sans-serif;
+  
+
+   
+    
   }
+  .top-search-input{
+    border: transparent !important;
+  }
+  .secondary{
+    background-color:  #6c757d2c !important;
+    color: rgba(128, 128, 128, 0.365);
+    font-weight: 500;
+  }
+.fa-video{
+  padding-bottom: -5px;
+}
