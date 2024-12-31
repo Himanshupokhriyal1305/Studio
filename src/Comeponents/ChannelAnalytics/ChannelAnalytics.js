@@ -11,7 +11,7 @@ const ChannelAnalytics = () => {
 
       <div className="tabs-container">
         <div className="tabs">
-          <span className="tab active">Overview</span>
+          <span className="tab  ">Overview</span>
           <span className="tab">Content</span>
           <span className="tab">Audience</span>
           <span className="tab">Trends</span>

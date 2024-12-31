@@ -44,7 +44,7 @@ const Sidebar = () => {
         </div>
 
         {/* Navigation Menu */}
-        <ul className="menu-list p-2">
+        <ul className="menu-list pt-2 p-2">
           <li className="menu-item">
             <svg
               viewBox="0 0 24 24"
@@ -70,7 +70,7 @@ const Sidebar = () => {
                 ></path>
               </g>
             </svg>
-            <span className="ps-3">Dashboard</span>
+            <span className="ps-3 ">Dashboard</span>
           </li>
           <li className="menu-item">
             <svg
@@ -369,33 +369,33 @@ const Sidebar = () => {
       <div className="col-lg-10 pb-0 over">
         <div className="channel-analytics-container ">
           <div className="header mt-3">
-            {/* <span>Channel analytics</span> */}
-            <div>
+            <span>𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗮𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀</span>
+            {/* <div>
 <img src={images.channce} alt="User Logo" className="daete" />
 
-</div>
-            
+</div> */}
 
             <button className="advanced-mode-button">Advanced mode</button>
           </div>
 
           <div className="tabs-container pt-4">
             <div className="tabs">
-              <span className="tab">Overview</span>
-              <span className="tab">Content</span>
-              <span className="tab">Audience</span>
-              <span className="tab">Trends</span>
+              <span className="tab">𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄</span>
+              <span className="tab">𝗖𝗼𝗻𝘁𝗲𝗻𝘁  </span>
+              <span className="tab">𝗔𝘂𝗱𝗶𝗲𝗻𝗰𝗲</span>
+              <span className="tab">𝗧𝗿𝗲𝗻𝗱𝘀</span>
             </div>
 
             <div className="nav-item dropdown d-flex drop">
-             {/* <div>
-             <p className="m-0 nov">30 Nov – 27 Dec 2024</p>
-             Last 28 days</div>  */}
+              <div>
+                <p className="m-0 nov">30 Nov – 27 Dec 2024</p>
+                <p className="m-0">Last 28 days</p>
+              </div>
 
-<div>
+              {/* <div>
 <img src={images.date} alt="User Logo" className="daete" />
 
-</div>
+</div> */}
               <NavLink
                 className="nav-link "
                 href="#"
@@ -404,32 +404,32 @@ const Sidebar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                
                 <i class="fa-solid fa-angle-down"></i>
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <NavLink className="dropdown-item" to="/action">
-                  Last 7 days
+                    Last 7 days
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/another-action">
-                  Last 28 days
+                    Last 28 days
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/another-action">
-                  Last 90 days
+                    Last 90 days
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/another-action">
-                  Last 365 days
+                    Last 365 days
                   </NavLink>
-                </li><li>
+                </li>
+                <li>
                   <NavLink className="dropdown-item" to="/another-action">
-                  Lifetime
+                    Lifetime
                   </NavLink>
                 </li>
 
@@ -438,11 +438,10 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/something-else">
-                    2024 
-                    
+                    2024
                   </NavLink>
                   <NavLink className="dropdown-item" to="/another-action">
-                  2023
+                    2023
                   </NavLink>
                 </li>
                 <li>
@@ -450,15 +449,13 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/something-else">
-                  December 
-                 
-                 
+                    December
                   </NavLink>
                   <NavLink className="dropdown-item" to="/another-action">
-                  November
+                    November
                   </NavLink>
                   <NavLink className="dropdown-item" to="/another-action">
-                  October
+                    October
                   </NavLink>
                 </li>
                 <li>
@@ -466,7 +463,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/something-else">
-                  Custom
+                    Custom
                   </NavLink>
                 </li>
               </ul>
@@ -477,30 +474,29 @@ const Sidebar = () => {
         <div className="container px-4">
           <div className="row">
             <div className="col-lg-8">
-              {/* <h4
-                className="text-center "
-                style={{ fontWeight: "bold", marginBottom: "30px" }}
+              <h4
+                className="text-center fs-4 mt-4 mb-5 "
+                style={{ fontWeight: "bold" }}
               >
-                Your channel got 40 views in the last 28 days
-              </h4> */}
-              <img src={images.youare} alt="User Logo" className="w-100" />
-
+                𝗬𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝗴𝗼𝘁 𝟰𝟭 𝘃𝗶𝗲𝘄𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗹𝗮𝘀𝘁 𝟮𝟴 𝗱𝗮𝘆𝘀
+              </h4>
+              {/* <img src={images.youare} alt="User Logo" className="w-100" /> */}
               <DashboardStats />
-              {/* <ContentList />{" "} */}
+              {/* <p className="text-center mt-5 fw-bold fs-3" >
+                𝗬𝗼𝘂𝗿 𝘁𝗼𝗽 𝗰𝗼𝗻𝘁𝗲𝗻𝘁 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗽𝗲𝗿𝗶𝗼𝗱
+                </p> */}
+              <ContentList />{" "}
               <div>
-              <h5 className="text-center mt-5">Your top content in this period</h5>
+              
 
-              <img src={images.listedted} alt="User Logo" className="w-100" />
-
+                {/* <img src={images.listedted} alt="User Logo" className="w-100" /> */}
               </div>
             </div>
             <div className="col-lg-4">
-              {/* <RealtimeDashboard />{" "} */}
+              <RealtimeDashboard />{" "}
               <div>
-              <img src={images.real} alt="User Logo" className="w-100" />
-
+                {/* <img src={images.real} alt="User Logo" className="w-100" /> */}
               </div>
-
             </div>
           </div>
         </div>

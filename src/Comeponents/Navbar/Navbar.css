@@ -25,7 +25,7 @@
   
   /* Search button */
   .search-button {
-    background-color: #f8f8f8;
+    background-color: #f5f5f5;
     border: 1px solid #ddd;
     color: #6c757d89;
     font-size: 14px;
@@ -92,12 +92,21 @@
   }
   .top-search-input{
     border: transparent !important;
+    background-color: #f5f5f5 !important;
+
   }
   .secondary{
-    background-color:  #6c757d2c !important;
-    color: rgba(128, 128, 128, 0.365);
+    /* background-color:  #6c757d2c !important; */
+    /* color: rgba(128, 128, 128, 0.365); */
     font-weight: 500;
   }
 .fa-video{
   padding-bottom: -5px;
+}
+.logo-custom {
+  width: auto; /* Keeps the aspect ratio intact */
+  height: 30px; /* Adjust the height to make it HD */
+  object-fit: fill; /* Ensures the image fits within the given dimensions */
+  image-rendering: -webkit-optimize-contrast !important; /* Ensures the best rendering on webkit browsers */
+  image-rendering: crisp-edges !important; /* Improves sharpness for pixel-based images */
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { images } from '../Image/Allimages';
 
 const ContentList = () => {
   const data = [
@@ -7,10 +8,10 @@ const ContentList = () => {
       list: 1,
       thumbnail: (
         <img
-          className="childs"
-          src="https://i9.ytimg.com/vi/PfqFX2uwzv8/mq2.jpg?sqp=CPDvwLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBGKDIwDw==&rs=AOn4CLCyR_NBrsLgR1H6y-yXVTh8rE_CBg"
+          className=""
+          src={images.boy}
           alt="fallback image"
-          style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+          style={{ width: '100%', height: '60px', borderRadius: '5px' }}
         />
       ),
       title: 'क्या Complan आपकी 🧑‍💼Height सच में Badhata है? #shorts',
@@ -24,7 +25,8 @@ const ContentList = () => {
       thumbnail: (
         <img
           className="childs"
-          src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
+          src={images.boyes}
+
           alt="fallback image"
           style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
         />
@@ -39,7 +41,8 @@ const ContentList = () => {
         thumbnail: (
           <img
             className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
+            src={images.boyes}
+
             alt="fallback image"
             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
           />
@@ -55,7 +58,25 @@ const ContentList = () => {
         thumbnail: (
           <img
             className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
+            src={images.boy}
+
+            alt="fallback image"
+            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
+          />
+        ),
+        title: 'Khatarnaak घटना जो😱 Camera में Record हो Gayi (Part 1) #shorts',
+        date: '16 Jun 2023',
+        duration: '0:47 (84.3%)',
+        views: 4,
+      }, 
+      {
+        id: 2,
+        list: 2,
+        thumbnail: (
+          <img
+            className="childs"
+            src={images.boyes}
+
             alt="fallback image"
             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
           />
@@ -71,7 +92,8 @@ const ContentList = () => {
         thumbnail: (
           <img
             className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
+            src={images.boy}
+
             alt="fallback image"
             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
           />
@@ -87,8 +109,9 @@ const ContentList = () => {
         thumbnail: (
           <img
             className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
             alt="fallback image"
+            src={images.boyes}
+
             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
           />
         ),
@@ -102,24 +125,9 @@ const ContentList = () => {
         list: 2,
         thumbnail: (
           <img
-            className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
-            alt="fallback image"
-            style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
-          />
-        ),
-        title: 'Khatarnaak घटना जो😱 Camera में Record हो Gayi (Part 1) #shorts',
-        date: '16 Jun 2023',
-        duration: '0:47 (84.3%)',
-        views: 4,
-      },
-      {
-        id: 2,
-        list: 2,
-        thumbnail: (
-          <img
-            className="childs"
-            src="https://i9.ytimg.com/vi/5r5W6eVaVZ4/mq2.jpg?sqp=CJzywLsG-oaymwEoCMACELQB8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBBKDMwDw==&rs=AOn4CLBNogwj9Q0Ptj6QH--igubCxLPKng"
+            className=""
+            src={images.boy}
+
             alt="fallback image"
             style={{ width: '100%', height: 'auto', borderRadius: '5px' }}
           />
@@ -133,84 +141,44 @@ const ContentList = () => {
   ];
 
   return (
-    <div
-      style={{
-        fontFamily: 'Arial, sans-serif',
-        maxWidth: '800px',
-        margin: 'auto',
-        
-       
-        backgroundColor: '#fff',
-        overflow: 'hidden',
-      }}
-    >
-    <h6 className='text-center my-5'>Your top content in this period</h6>
-      {/* Header */}
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          
-          padding: '10px 20px',
-          fontWeight: 'lighter',
-          borderBottom: '1px solid #ddd',
-        }}
-      >
-        <div style={{ flex: 2, textAlign: 'left',fontSize : "12px" }}>Content</div>
-        <div style={{ flex: 1, textAlign: 'center',fontSize : "15px" }} className='text-end'>Average view duration</div>
-        <div style={{ flex: 1, textAlign: 'center',fontSize : "12px" }}>Views</div>
-      </div>
-
-      {/* Data Rows */}
-      {data.map((item, index) => (
-        <div
-          key={item.id}
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            padding: '10px 20px',
-            borderBottom: '1px solid #ddd',
-            alignItems: 'center',
-          }}
-        >
-          <div style={{ display: 'flex', alignItems: 'center', flex: 2 }}>
-            {/* Index Number */}
-            <div
-              style={{
-                marginRight: '10px',
-                fontWeight: 'bold',
-                fontSize: '14px',
-                color: '#333',
-              }}
-            >
-              {index + 1}.
-            </div>
-            {/* Thumbnail */}
-            <div
-              style={{
-                width: '150px',
-                height: '50px',
-                overflow: 'hidden',
-                marginRight: '10px',
-              }}
-            >
-              {item.thumbnail}
-            </div>
-            {/* Title and Date */}
-            <div>
-              <div style={{ fontSize: '14px', fontWeight: 'bold', marginBottom: '5px' }}>
-                {item.title}
-              </div>
-              <div style={{ fontSize: '12px', color: '#888' }}>{item.date}</div>
-            </div>
-          </div>
-          {/* Duration */}
-          <div style={{ flex: 1, textAlign: 'center', fontSize: '14px' }}>{item.duration}</div>
-          {/* Views */}
-          <div style={{ flex: 1, textAlign: 'center', fontSize: '14px' }}>{item.views}</div>
-        </div>
-      ))}
+    <div className="container bg-white ">
+    <div className='justify-content-center d-flex'>
+      <hr className='' style={{width:"70px"}}/>
     </div>
+    <h5 className="text-center my-4">𝗬𝗼𝘂𝗿 𝘁𝗼𝗽 𝗰𝗼𝗻𝘁𝗲𝗻𝘁 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗽𝗲𝗿𝗶𝗼𝗱</h5>
+    {/* Header */}
+    <div className="row border-bottom pb-2 mb-3 mt-3">
+      <div className="col-8"style={{fontSize:"11px" }}>Content</div>
+      <div className="col-2 text-end  "style={{fontSize:"11px", paddingRight:"0px" }}>Average view duration</div>
+      <div className="col-2 text-end "style={{fontSize:"11px" }}>Views</div>
+    </div>
+    {/* Data Rows */}
+    {data.map((item, index) => (
+      <div
+        key={item.id}
+        className="row align-items-center border-bottom py-2"
+      >
+        <div className="col-9 d-flex align-items-center">
+          <span className=" me-2"style={{fontSize:"11px",fontWeight : "600" }} >{index + 1}</span>     
+          <div className="me-3" style={{ width: "100px" }}>
+            {item.thumbnail}
+          </div>
+          <div  className='w-100'>
+            <div className="w-100" style={{fontSize:"11px",fontWeight:"500" }}>{item.title}</div>
+            <div className="text-muted small" style={{fontSize:"11px"}}>{item.date}</div>
+          </div>
+        </div>
+        <div className="col-2 text-start" style={{
+    
+    fontSize: '11px',
+  }} >{item.duration}</div>
+        <div className="col-1 text-end"style={{
+    
+    fontSize: '11px',
+  }}>{item.views}</div>
+      </div>
+    ))}
+  </div>
   );
 };
 

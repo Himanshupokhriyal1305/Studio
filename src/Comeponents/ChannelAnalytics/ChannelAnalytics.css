@@ -10,7 +10,10 @@
     align-items: center;
     margin-bottom: 10px;
   }
-  
+  .tab:hover {
+    color: black !important; /* Text turns black on hover */
+    background-color: #f0f0f0; /* Optional: Add a light background color */
+  }
   .header h2 {
     font-size: 20px;
     font-weight: bold;
@@ -42,16 +45,28 @@
   
   .tab {
     font-size: 16px;
-    color: #666;
+    color: black !important;
     cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .tab:hover {
+    color: black !important; /* Ensure hover color is applied */
+    background-color: #f0f0f0; /* Optional hover background */
   }
   
   .tab.active {
     font-weight: bold;
     color: #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     padding-bottom: 4px;
   }
+  
+  .tab.active:hover {
+    color: black !important; /* Override active color on hover */
+    background-color: #f0f0f0; /* Keep hover background consistent */
+  }
+  
   
   .date-selector {
     display: flex;
@@ -70,8 +85,10 @@
   
   .dropdown-button:hover {
     text-decoration: underline;
+    color: #000 ;
   }
-  
+ 
+
   hr {
     margin-top: 10px;
     border: 0.5px solid #ddd;

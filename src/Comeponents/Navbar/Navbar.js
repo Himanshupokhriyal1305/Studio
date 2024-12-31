@@ -27,7 +27,7 @@ const Navbar = () => {
           </g>
         </svg>
 
-        <h5 class="logo-container mt-1 ms-3">
+        <h5 class="mt-1 ms-2">
           <img src={images.logo} class="chakra-icon logo-custom" alt="Logo" />
         </h5>
       </div>
